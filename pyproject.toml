@@ -7,7 +7,11 @@ authors = [
     { name = "Veit  Schiele", email = "veit@cusy.io" }
 ]
 requires-python = ">=3.14"
-dependencies = []
+dependencies = [
+    "bokeh>=3.9.1",
+    "jupyter>=1.1.1",
+    "panel>=1.9.3",
+]
 
 [project.scripts]
 dash = "dash:main"
